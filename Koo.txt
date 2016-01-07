@@ -1,0 +1,37 @@
+Git의 DVCS Mercurial
+Work easier
+Work faster
+
+Every clone contains the whole project history
+Supports a multitude of workflows
+
+Git merge
+깃의 합병은 git branch에 의해 개발에 독립적으로 작동할 수 있다.
+그리고 나중에 하나의 branch로 통합이 이루어진다.
+
+fast-forward merge
+3-way merge
+
+A fast-forward merge
+history를 합치는 방법이다.
+현재에서 target이 되는 지점을 모두 합친다.
+그러나 이 방법이 안될 때가 존재한다.
+히스토리가 선형의 기록이 아니라면 다른 방법으로 통합을 해야한다.
+nomenclature (명명법)
+깃이라는 말이 three commits to generate the merge commit이라데서 유래했다.
+
+2개의 branch는 1개의 조상으로부터 파생했다.
+
+충돌의 해결
+하나의 같은 파일에서 변화가 일어날 경우 edit/stage/commit 실행흐름을 통해 충돌을 해결한다.
+merge commit을 통해 보통의 개발자는 쉽게 처리할 수도 있다.
+출처 / https://www.atlassian.com/git/tutorials/using-branches/git-checkout/
+
+
+충돌이 발생할 경우 <<<< >>>> 꺽쇠로 표시된다. 
+=======의 구분으로 윗 부분이 로컬 저장소, 아래 부분이 변경 내용에 해당한다.
+출처 / https://backlogtool.com/git-guide/kr/intro/intro5_2.html
+
+Git Merge에 대한 질문과 답변
+https://www.quora.com/How-does-Git-merge-work
+
