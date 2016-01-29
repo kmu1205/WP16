@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\JuHeeUMGTest.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{04C91101-03BD-445D-958A-4C8C8BBEB672}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\JuHeeUMGTest.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\JuHeeUMGTestEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{04BA6FED-975F-4332-BE74-7BEE2AE29B4B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\JuHeeUMGTest">
+			<UniqueIdentifier>{FD00778F-EB0F-4476-80FD-5AE7427CFF44}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\JuHeeUMGTest\JuHeeUMGTest.Build.cs">
+			<Filter>Source\JuHeeUMGTest</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\JuHeeUMGTest\JuHeeUMGTest.cpp">
+			<Filter>Source\JuHeeUMGTest</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\JuHeeUMGTest\JuHeeUMGTest.h">
+			<Filter>Source\JuHeeUMGTest</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\JuHeeUMGTest\JuHeeUMGTestCharacter.cpp">
+			<Filter>Source\JuHeeUMGTest</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\JuHeeUMGTest\JuHeeUMGTestCharacter.h">
+			<Filter>Source\JuHeeUMGTest</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\JuHeeUMGTest\JuHeeUMGTestGameMode.cpp">
+			<Filter>Source\JuHeeUMGTest</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\JuHeeUMGTest\JuHeeUMGTestGameMode.h">
+			<Filter>Source\JuHeeUMGTest</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
