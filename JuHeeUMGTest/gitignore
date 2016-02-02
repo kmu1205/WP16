@@ -47,8 +47,9 @@ SourceArt/**/*.tga
 # Binary Files
 Binaries/*
 
+//juhee modify 16.02.02.
 # Builds
-Build/*
+# Build/*
 
 # Don't ignore icon files in Build
 !Build/**/*.ico
