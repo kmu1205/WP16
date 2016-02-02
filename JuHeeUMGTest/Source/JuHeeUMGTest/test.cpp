@@ -6,6 +6,7 @@
 Atest::Atest()
 {
 	ha = 0.9f;
+	int64 a = 10;
 
 }
 
